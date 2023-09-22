@@ -1,0 +1,402 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    position: relative;
+}
+
+.navbar{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    background-color:white;
+    position: relative;
+}
+.navlinks{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+.navlinks li a{
+margin: 9px;
+}
+.header1{
+    width: 100%;
+    height: 59px;
+    background-color: blue;
+}
+.navbar1{
+    width: 100%;
+    height: 99px;
+    background-color: blue;
+}
+.navlink1{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 20px;
+}
+.let{
+    text-align: center;
+    margin-top: 45px;
+    color: white;
+    font-size: 15px;
+}
+.navlink1 li a{
+    color: white;
+    text-decoration: none;
+    margin: 9px;
+    text-transform: capitalize;
+}
+
+.navlink1 li a:hover{
+    border-bottom: 2px solid white;
+}
+.section_top{
+    width: 100%;
+    height: 900px;
+    overflow: hidden;
+    position: relative;
+    background-image: url(images/img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    animation: change 10s infinite ease-in-out ;
+ }
+ @keyframes change{
+    0%{
+       background-image: url(images/c1\ img2.jpeg);
+    }
+    20%{
+       background-image: url(images/c2\ bharath-college-front.jpg);
+    }
+    40%{
+       background-image: url(images/c3slider-founder.jpg);
+    }
+    80%{
+       background-image: url(images/c4\ WhatsApp-Image-2023-04-12-at-20.19.47-1.jpeg);
+    }
+    100%{
+       background-image: url(images/c2\ bharath-college-front.jpg);
+    }
+ }
+ .marque{
+    width: 100%;
+ }
+ .about{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* border: 1px solid red; */
+    margin: 0 5%;
+ }
+ h6{
+   color: rgb(47, 46, 46);
+   text-transform: capitalize;
+   font-size: 19px;
+   font-weight: 900;
+ }
+ h1{
+   font-size: 30px;
+   color: black;
+   text-transform: capitalize;
+   font-weight:900;
+ }
+ .box1{
+    /* border: 1px solid red; */
+    height: 315px;
+ }
+ .para{
+   font-size: 20px;
+   font-weight: 200;
+   color: rgb(46, 45, 45);
+ }
+ .btn1{
+    background-color: blue;
+    color: white;
+    border: blue;
+    text-transform: capitalize;
+    font-size: 22px;
+    margin-top: 3%;
+    padding: 12px;
+ }
+ .inm{
+   max-width: 100%;
+   height: auto;
+   justify-content: center;
+   align-items: center;
+   padding: 20px 350px;
+ }
+ .image{
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-image: url(images/c3slider-founder.jpg);
+ }
+ .image-overlay{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 255, 0.707);
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+ }
+
+ /* total */
+
+
+ #partadmin{
+   width: 100%;
+   height: 400px;
+   background-color: rgb(248, 245, 241);
+ }
+
+ /*  */
+ #admission{
+   margin: 0 5%;
+   /* border: 1px solid red; */
+   height: 160px;
+ }
+ .admi{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   height: 160px;
+   /* background-color: antiquewhite; */
+ }
+ .admi1 h1{
+   text-transform: capitalize;
+   margin:3%;
+   margin-top: 9%;
+   color: black;
+ }
+ .admi p{
+   text-transform: capitalize;
+   margin-left: 3%;
+   color: black;
+ }
+ .admi2 h2{
+   text-transform: capitalize;
+   margin-left: 69%;
+   width: 22%;
+   text-align: center;
+   margin-top: 9%;
+   background-color: blue;
+   color: white;
+   border-radius: 29px;
+   padding: 9px;
+ }
+
+ /* part of the vacadamic */
+
+
+ #acadamic{
+   margin: 0 5%;
+   height: 140px;
+   /* background-color: cadetblue; */
+   /* border: 1px solid red; */
+ }
+ .acad{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   height: 140px;
+   margin-top: 2%;
+   /* border: 1px solid red; */
+   gap: 9px;
+ }
+ .acad1 h2{
+   font-size: 19px;
+   margin-top: 3%;
+   margin-left: 3%;
+ }
+ .acad1{
+   border: 1px solid rgb(220, 228, 220);
+   border-radius: 5px;
+ }
+ .acad1 h4{
+   font-size: 19px;
+   margin-top:2%;
+   margin-left: 3%;
+   color: rgb(112, 109, 109);
+ }
+ .acad1 h6{
+   font-size: 19px;
+   margin-top:2%;
+   margin-left:50%;
+   color: rgb(147, 145, 145);  
+ }
+
+ /*  */
+ /*  */
+ #depart{
+   margin: 0 5%;
+   /* border: 1px solid red; */
+   height: 200px;
+ }
+ .dep1{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   height: 200px;
+   margin: 9% 0;
+ }
+ .dep2 h2{
+   text-transform: capitalize;
+   margin:3%;
+   margin-top: 9%;
+   color: black;
+   font-size: 19px;
+ }
+ .dep2 p{
+   text-transform: capitalize;
+   color: rgb(124, 120, 120);
+   margin: 2% 0;
+   font-size: 19px;
+ }
+ .dep3{
+   text-transform: capitalize;
+   margin-left: 69%;
+   text-transform: capitalize;
+   background-color: blue;
+   color: white;
+   height: 35px;
+   width: 22%;
+   border-radius: 33px;
+   text-align: center;
+   padding: 5px;
+ }
+ /*  */
+ /*  */
+ #gallery{
+   margin: 0 5%;
+   /* border: 1px solid red; */
+   height: 400px;
+   margin-bottom: 9%;
+ }
+ .gall{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   height: 400px;
+   gap: 5px;
+ }
+ .galbox1{
+   border: 1px solid rgb(228, 231, 228);
+   border-radius: 15px;
+ }
+ .galbox11{
+   border: 1px solid rgb(228, 231, 228);
+   border-radius: 15px;
+   height: 92%;
+ }
+ .galbox1 img{
+   width: 100%;
+ }
+ .galbox11 img{
+   width: 100%;
+   height: 56%;
+ }
+.galbox1 h5{
+   margin-left: 2%;
+}
+.galbox1 h2{
+   margin-left: 2%;
+   color: rgb(92, 91, 91);
+   font-size: 16px;
+   justify-content: center;
+   text-transform: capitalize;
+   margin-top: 3%;
+}
+.galbox11 h2{
+   margin-left: 2%;
+   color: rgb(92, 91, 91);
+   font-size: 16px;
+   justify-content: center;
+   text-transform: capitalize;
+   margin-top: 3%;
+}
+.galbox1 h5{
+   margin-left: 2%;
+   color: rgb(176, 172, 172);
+   font-size: 16px;
+   justify-content: center;
+   text-transform: capitalize;
+   margin-top: 3%;
+}
+.galbox11 span{
+   margin-left: 2%;
+   color: rgb(176, 172, 172);
+   font-size: 16px;
+   justify-content: center;
+   text-transform: capitalize;
+   margin-top: 3%;
+}
+.galbox1 h3{
+   border-bottom: 1px solid rgb(106, 4, 240);
+   width: 26%;
+   color: blue;
+   text-transform: capitalize;
+   font-size: 15px;
+   margin-left: 2%;
+   margin: 2% o;
+}
+.galbox11 h3{
+   border-bottom: 1px solid rgb(106, 4, 240);
+   width: 26%;
+   color: blue;
+   text-transform: capitalize;
+   font-size: 15px;
+   margin-left: 2%;
+   margin-top: 5%;
+}
+.galbox1 h6{
+   margin-left: 9%;
+   color: rgb(176, 172, 172);
+   font-size: 16px;
+   justify-content: center;
+   text-transform: capitalize;
+   margin-top: 2%;
+}
+.galbox11 h6{
+   margin-left: 9%;
+   color: rgb(176, 172, 172);
+   font-size: 16px;
+   justify-content: center;
+   text-transform: capitalize;
+   margin-top: 2%;
+}
+#media{
+  margin: 0 5%;
+  /* background-color: blueviolet; */
+  height: 40px;
+  margin-bottom: 2%;
+}
+.medias h1{
+  text-transform: capitalize;
+  font-size: 33px; 
+}
+#caurosil{
+  margin: 0 5%;
+  /* border: 1px solid red; */
+  height: 260px;
+}
+.cour{
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  height: 260px;
+}
+
+.courimage{
+  
+  <a href=""><i class="fa-regular fa-circle-play"></a>
+}
+.courimage img{
+  width: 80%;
+
+}
